@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Thêm Nhân Viên mới</h1>
+    <label for="name">Họ và Tên</label>
+    <input type="text" name="name" id="name" autofocus required>
+    <br>
+    <label for="date">Ngày sinh đầy đủ</label>
+    <input type="date" name="date" id="date">
+    <br>
+    <label for ="month">Tháng và năm</label>
+    <input type="month" name="month" id="month">
+    <br>
+    <label for="time">Thời gian</label>
+    <input type="time" name="time" id="time">
+    <br>
+    <label for="gender">Giới tính</label>
+    <input type="radio" name="gender" id="gender">Nam
+    <input type="radio" name="gender" id="gender">Nữ
+    <input type="radio" name="gender" id="gender">Khác
+    <br>
+    <label for="Email">Email</label>
+    <input type="email" name="Email" id="Email" required>
+    <br>
+    <label for="Password">Password</label>
+    <input type="password" name="Password" id="Password" required minlength="8">
+    <br>
+    <label for="introduce">Giới thiệu bản thân</label>
+    <br>
+    <textarea name="introduce" id="introduce" style="width: 300px; height: 100px;"></textarea>
+    <br>
+    <label for="City">Thành phố</label>
+    <select name="City" id="City" multiple>
+        <option value="HN">Hà Nội</option>
+        <option value="HCM">Hồ Chí Minh</option>
+        <option value="ĐN">Đà Nẵng</option>
+        <option value="HP">Hải Phòng</option>
+        <option value="CT">Cần Thơ</option>
+    </select>
+    <br>
+    <label for="picture">Hình ảnh</label>
+    <input type="file" name="picture" id="picture">
+    <br>
+    <label for="Hobbies">Sở thích</label>
+    <input type="checkbox" name="Hobbies" id="Hobbies">code
+    <input type="checkbox" name="Hobbies" id="Hobbies">Chơi game  
+    <input type="checkbox" name="Hobbies" id="Hobbies">Bơi lộn
+    <input type="checkbox" name="Hobbies" id="Hobbies">Đá bóng
+    <br>
+    <label for="progess">Tiến độ hoàn thành công việc</label>
+    <input type="range" name="progess" id="progess">
+    <br>
+    <label for="yoe">Năm kinh nghiệm</label>
+    <input type="number" name="yoe" id="yoe" min="1" max="10">
+    <br>
+    <label for="search">Tìm kiếm</label>
+    <input type="search" name="search" id="search">
+    <br>
+    <label for="color">Màu sắc sở thích</label>
+    <input type="color" name="color" id="color">
+    <br><br>
+    <button>Hủy</button>
+    <input type="reset" value="Nhập lại">
+    <input type="submit" value="Thêm mới">
+
+    
+
+
+
+</body>
+</html>
