@@ -1,0 +1,28 @@
+.header{
+    padding: 10px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+.button{
+    color:blue;
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+.table2{
+    border: 1px solid gray;
+width: 200px;
+    background-color: rgb(249, 249, 249);
+}
+.footer{
+    background-color: black;
+    line-height: 50px;
+}
+.contact{
+    text-align: center;
+    color: white;
+}
+.sidebar{
+    margin-bottom: 450px;
+}

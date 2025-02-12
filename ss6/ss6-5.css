@@ -1,0 +1,43 @@
+.header{
+    background-color: green;
+    color: white;
+    line-height: 30px;
+}
+.button,.button2{
+    border: none;
+    background: none;
+    color: white;
+    
+}
+.allbutton{
+    margin-left: 850px ;
+}
+.body{
+    text-align: center;
+}
+.button2{
+    margin-bottom: 20px;
+    background-color: green;
+    border-radius: 5px;
+}
+.table{
+    width: 100%;
+    
+}
+.td{
+    line-height: 30px;
+    background-color: gray;
+    border-radius: 2px;
+    width: 35%;
+    text-align: center;
+    
+}
+.footer{
+    line-height: 30px;
+    background-color: black;
+    text-align: center;
+}
+.contact{
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+.header{
+    border: 10px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+.title{
+    padding-top: 20px;
+   
+    
+}
+.button{
+    padding-bottom: 30px;
+    border: none;
+    background:none;  
+    color: white;
+}
+img{
+    height: 100px;
+    border:2px solid blue;
+    border-radius: 50%;
+    
+}
+table{
+    width: 100%;
+
+}
+.td{
+    width: 30%;
+    text-align: right;
+
+}
+.footer{
+    text-align: center ;
+    line-height: 100px;
+    background-color: gray;
+}

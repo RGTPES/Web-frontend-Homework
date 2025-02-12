@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.caption{
+    text-align: center;
+}
+.content{
+    padding: 20px;
+    width: 20%;
+    border: 1px solid gray;
+    background-color:white;
+    border-radius: 10px;
+}
+.submit{
+   color: white;
+   background-color: blue;
+    text-align: center;
+    width: 100%;
+}
+.input{
+    padding-left: 10px;
+    width: 100%;
+}
+
