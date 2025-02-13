@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    position: relative;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+width: 30%;
+}
+h1{
+    color: white;
+    background-color: red;
+   
+}
+.img{
+width: 50px;
+position: absolute;
+top: 0;
+right: 0;
+}
+.p{
+ 
+    color: #ff8f06;
+}
+p{
+    margin: 5px;
+}
+.button{
+  
+ width: 300px;
+ height: 30px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    
+}
+.button2{
+    width: 200px;
+ height: 30px;
+ border: 1px solid red;
+ border-radius: 20px;
+ background-color: white;
+ color: red
+}
