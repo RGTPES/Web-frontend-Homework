@@ -1,0 +1,21 @@
+
+h1{
+    
+    padding-bottom: 10px;
+    width: 190px;
+    border-bottom: 2px solid red;
+}
+.img{
+padding: 10px;
+    width: 80px;
+    transform: rotate(45deg);
+   border: 3px solid gray;
+}
+.content{
+    transform: rotate(-45deg);
+
+}
+.table{
+    border-spacing: 50px;
+    margin:20px;
+}

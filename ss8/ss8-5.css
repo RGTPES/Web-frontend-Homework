@@ -1,0 +1,19 @@
+h1{
+    color: rgb(131, 132, 133);
+}
+p{
+    color: rgb(169, 164, 173);
+}
+*{
+    text-align: center;
+}
+.content{
+    margin-bottom: 50px;
+}
+button{
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.549);
+    color: white;
+}
