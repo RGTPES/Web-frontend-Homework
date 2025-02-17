@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent .child{
+    width: 20%;
+    height: 40%;
+}
+.parent{
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    height:200px;
+    width: 500px;
+    flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+}
+.child{
+    display: flex;
+
+justify-content: center;
+    margin: 10px;
+    background-color: green;
+    align-items: center;
+}
