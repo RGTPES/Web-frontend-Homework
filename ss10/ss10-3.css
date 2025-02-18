@@ -1,0 +1,37 @@
+.img{
+    background-image: url(https://st4.depositphotos.com/10614052/40408/i/1600/depositphotos_404086664-stock-photo-ball-playing-basketball-shoes-dark.jpg);
+height: 500px;
+background-position: center;
+width: 50%;
+border-radius: 5px;
+}
+img{
+    position: relative;
+    border-radius: 50%;
+    width: 100px;
+}
+.ava{
+    display: flex;
+    align-items: center;
+}
+p{
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+button{
+    left: 700px;
+    top: 30px;
+    display: flex;
+    position: absolute;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+h2{
+    margin-left: 25px;
+    font-size: 50px;
+}

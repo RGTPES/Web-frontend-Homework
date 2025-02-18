@@ -1,0 +1,39 @@
+.content{
+    display: flex;
+    flex-direction: column;
+
+}
+.mid{
+
+    display: flex;
+}
+.img{
+margin: 10px;
+  
+}
+.container{
+    width: 50%;
+    background-color: rgb(186, 186, 186);
+    
+}
+.row1{
+    
+    display: flex;
+}
+button{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(20, 40, 80);
+    color: white;
+}
+.line{
+    height: 1px;
+    width: 700px;
+    background-color: white;
+}
+footer{
+    text-align: center;
+}
+.foot{
+    margin-top: 60px;
+}
