@@ -1,0 +1,103 @@
+.container{
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    
+width: 100%;
+justify-content: center;
+align-content: center;
+}
+.logo{
+    background-color: white;
+    color: red;
+    font-size: 40px;
+   
+}
+.navbar{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 75%;
+background-color: red;
+color: white;
+font-size: 40px;
+}
+.main{
+   width: 100%;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   
+
+}
+.main1{
+    display: flex;
+    justify-content: center; 
+    height: 300px;
+    width: 53.5%;
+    align-items: center;
+    background-color: red;
+color: white;
+font-size: 40px;
+
+
+}
+.aside{
+    display: flex;
+    justify-content: center; 
+    height: 300px;
+    width: 25%;
+    align-items: center;
+    background-color: red;
+color: white;
+font-size: 40px; 
+}
+.column{
+    color: white;
+    justify-content: center ;
+    align-items: center;
+    font-size: 30px;
+    width: 84%;
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+}
+.column1{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: red;
+    width: calc(33% - 30px);
+    height: 200px;
+}
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+    .main1{
+        width: 80%;
+    }
+    .aside{
+        width: 80%;
+    }
+    .column{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .column1{
+        width: calc(50% - 30px);
+    }
+}
+

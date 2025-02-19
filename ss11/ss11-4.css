@@ -1,0 +1,114 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.head{
+    background-color: orange;
+    height: 100px;
+    width: calc(50% - 10PX);
+}
+.content{
+    height: 400px;
+    width: 100%;
+    background-color: yellow;
+}
+.content2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.box{
+    background-color: blue;
+    height: 200px;
+    width: calc(33% - 10px);
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.box2{
+    height: 100px;
+    width: calc(25% - 10px);
+    background-color: gray;
+}
+@media screen and (min-width:768px) and (max-width:1200px){
+
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .head{
+        margin-bottom: 10px;
+        background-color: orange;
+        height: 100px;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .box2{
+        margin-bottom: 10px;
+        height: 100px;
+        width: calc(50% - 10px);
+        background-color: gray;
+    }
+    
+}
+@media screen and  (max-width:768px){
+    .content{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: yellow;
+    }
+    .box{
+        margin-bottom: 10px;
+        background-color: blue;
+        height: 200px;
+        width:100%;
+    }
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .head{
+        margin-bottom: 10px;
+        background-color: orange;
+        height: 100px;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .box2{
+        margin-bottom: 10px;
+        height: 100px;
+        width: 100%;
+        background-color: gray;
+    }
+}
