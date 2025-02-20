@@ -1,0 +1,24 @@
+main{
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.vip1{
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-align: center;
+    width: calc( 100% / 3 - 20px);
+}
+.vip2{
+    background-color: rgb(255, 193, 7);
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-align: center;
+    width: calc( 100% / 3 - 20px);
+}
+button{
+    width: 100%;
+    background-color: skyblue;
+    color: white;
+}
